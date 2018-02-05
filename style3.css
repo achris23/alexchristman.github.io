@@ -1,0 +1,40 @@
+body {
+    background-color: crimson;
+    font-family: 'BenchNine';font-size: 20px;
+    max-width: 100%;
+}
+h1 {
+    margin:auto;
+    text-align: center;
+    color:blue;
+}
+h2 {
+    margin: auto;
+    text-align: center;
+    color:blue;
+}
+footer {
+    color:blue;
+    font-size: 15px;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+}
+img {
+    float: right;
+    max-width: 100%;
+    height: auto;
+    width:300px;
+}
+.button{
+    margin-right:7em;
+    align-content: center;
+    background-color: blue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+a {
+    color:white;
+}
