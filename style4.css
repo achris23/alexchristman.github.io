@@ -70,6 +70,7 @@ p1 {
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+    max-width: 100%;
     
 }
 .sanfran {
@@ -78,6 +79,7 @@ p1 {
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+    max-width: 100%;
     
 }
 
@@ -87,6 +89,7 @@ p1 {
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+    max-width: 100%;
 }
 .charls{
      background:radial-gradient(rgba(255, 255, 255, 0.8),rgba(91, 111, 23, 0)),url(http://caldwellcommercial.com/wp-content/uploads/2017/07/Charleston-SC-Facade-Caldwell.jpg);
@@ -94,6 +97,7 @@ p1 {
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
+    max-width: 100%;
     }
 .sav{
      background:radial-gradient(rgba(255, 255, 255, 0.88),rgba(235, 248, 246, 0.19)),url(http://41117c3788692e2438c3-e11b433c1205b5fea2159ff846fdbd40.r28.cf1.rackcdn.com/XLGallery/Forsyth-Park-in-Savannah.jpg);
@@ -101,6 +105,7 @@ p1 {
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed
+    max-width: 100%;
 }
 footer {
     text-align: center;
