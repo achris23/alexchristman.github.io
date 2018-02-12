@@ -1,0 +1,108 @@
+body {
+    background-color: beige;
+    font-family: 'BenchNine', sans-serif;font-size: 20px;
+    max-width: 100%;
+    
+}
+
+h1 {
+    margin:auto;
+    text-align: center;
+    
+}
+h2 {
+    margin:auto;
+    text-align: center;
+    
+}
+nav{
+    margin:3em;
+}
+a{
+    margin:4em
+}
+
+p {
+    margin:5em;
+    text-align: center;
+    padding:2em;
+    
+}
+
+p1 {
+        margin-bottom: 3em;
+        margin-top;3em;
+        text-align: center;
+    } 
+    
+
+
+.col-1 {width: 8.33%;}
+
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;}
+* {
+    box-sizing: border-box;
+    
+}
+
+
+.costa {
+    background:radial-gradient(rgba(255, 255, 255, 0.38),rgba(56, 88, 132, 0.44)),url(https://www.costarica.com/contentAsset/image/f989844e-960c-4cca-b9c2-87638dc2d18c/fileAsset/filter/Resize,Jpeg/resize_w/1000/Jpeg_q/.8);
+    background-position:bottom right;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+.sanfran {
+    background:radial-gradient(rgba(255, 255, 255, 0.67),rgba(193, 148, 86, 0.29)),url(http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1444253482/DG2015-san-francisco.jpg?itok=MdRJm2Zo);
+    background-position:top left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    
+}
+
+.cancun {
+    background:radial-gradient(rgba(255, 255, 255, 0.8),rgba(91, 111, 23, 0)),url(https://www.transat.com/getmedia/3f826a07-ccf1-4069-ace4-879d609b11f9/Mexico-CancunQuai-2050x1200?width=1400);
+    background-position:top left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.charls{
+     background:radial-gradient(rgba(255, 255, 255, 0.8),rgba(91, 111, 23, 0)),url(http://caldwellcommercial.com/wp-content/uploads/2017/07/Charleston-SC-Facade-Caldwell.jpg);
+    background-position:top left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    }
+.sav{
+     background:radial-gradient(rgba(255, 255, 255, 0.88),rgba(235, 248, 246, 0.19)),url(http://41117c3788692e2438c3-e11b433c1205b5fea2159ff846fdbd40.r28.cf1.rackcdn.com/XLGallery/Forsyth-Park-in-Savannah.jpg);
+    background-position:top left;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed
+}
+footer {
+    text-align: center;
+    color:red;
+}
