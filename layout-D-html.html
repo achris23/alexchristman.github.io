@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    <title>Layout-D-html</title>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+       
+        
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+   
+       .inside{
+          
+        
+           display:inline-block;
+           
+           
+           }
+       
+       .row::after {
+    content: "";
+    clear: both;
+    display: block;}
+
+       
+       * {
+    box-sizing: border-box;
+} 
+      
+
+       body{background:url(http://hdwpro.com/wp-content/uploads/2017/01/Fabric-Black-Background.jpg);
+       color:white;
+       font-family: 'Indie Flower', cursive;
+       max-width: 100%;}
+       
+       
+        
+       img{
+           width:100%;
+           border-radius: 15px;
+           
+           
+       }
+       p{text-align: center;
+       }
+       
+       footer{float:left;
+       }
+       
+       footer > p{display:inline;
+           float:right;
+           }
+        footer > img{
+           width:20%;
+           float:right
+       }
+        p:nth-child(1){font-size:1.3em;}
+        p:nth-child(2){font-size:1.6em;}
+       p:nth-child(3){font-size:1.3em;}
+       p:nth-child(4){font-size:2em;}
+        p:nth-child(5){font-size:2em;}
+       
+</style>
+    </head>
+    
+    
+    <body>
+    
+        <div class="row"><div class="inside col-4"><img src="https://www.asweetpeachef.com/wp-content/uploads/2011/08/Lettuce-and-Tomatoes.jpg" alt="lettuce and tomatoes"></div><div class="inside col-4"><p>WE'D BUY </p><p>TINNED SALSA,</p><p>BUT WE'RE TOO BUSY</p><p>CHOPPING</p><p>TOMATOES</p></div><div class=" inside col-4"><img src="http://www.simplyscratch.com/wp-content/uploads/2010/04/Pico-de-Gallo-l-SimplyScratch.com-6-620x929.jpg"></div>
+          </div>
+        
+        
+        
+        <footer><p>Gourmet Burritos &amp; Tacos</p><img src="http://1000logos.net/wp-content/uploads/2017/11/Chipotle-Logo.png"></footer>
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
