@@ -1,5 +1,5 @@
 body {
-    background-color: crimson;
+    background-color: beige;
     font-family: 'BenchNine', sans-serif;font-size: 20px;
     max-width: 100%;
 }
@@ -20,26 +20,36 @@ footer {
     margin-right: 4em;
     text-align: center;
 }
-img {
-    float: right;
-    max-width: 100%;
-    height: auto;
-    width:300px;
-    border-radius:15px;
+div>img {display:none;
+    
 }
+
+
 button{
     margin-right:7em;
     align-content: center;
-    background-color: blue;
+    background-color: green;
     color: white;
     padding: 15px 32px;
     text-align: center;
     font-size: 16px;
 }
 li 
-{padding: 1em}
+{padding: .4em}
+
 a {
     color:white;
+}
+
+.footer {
+  position:fixed ;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: .01em;
+    
+  background-color: antiquewhite;
+  text-align: center;
 }
 
 header {
@@ -66,3 +76,52 @@ header {
     content: "";
     clear: both;
     display: block;}
+
+
+
+@media screen and (min-width: 568px){
+.col-t-1 {width: 8.33%;}
+.col-t-2 {width: 16.66%;}
+.col-t-3 {width: 25%;}
+.col-t-4 {width: 33.33%;}
+.col-t-5 {width: 41.66%;}
+.col-t-6 {width: 50%;}
+.col-t-7 {width: 58.33%;}
+.col-t-8 {width: 66.66%;}
+.col-t-9 {width: 75%;}
+.col-t-10 {width: 83.33%;}
+.col-t-11 {width: 91.66%;}
+.col-t-12 {width: 100%;}
+     h1 img{float:right;}
+    
+}
+
+@media screen and (min-width: 1000px){
+.col-d-1 {width: 8.33%;}
+.col-d-2 {width: 16.66%;}
+.col-d-3 {width: 25%;}
+.col-d-4 {width: 33.33%;}
+.col-d-5 {width: 41.66%;}
+.col-d-6 {width: 50%;}
+.col-d-7 {width: 58.33%;}
+.col-d-8 {width: 66.66%;}
+.col-d-9 {width: 75%;}
+.col-d-10 {width: 83.33%;}
+.col-d-11 {width: 91.66%;}
+.col-d-12 {width: 100%;}
+    
+    h1 img{float:right;}
+
+   div> img {
+        display:block;
+    float: right;
+    max-width: 100%;
+    height: auto;
+    width:300px;
+    border-radius:15px;
+}
+
+    
+    
+
+}
